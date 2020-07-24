@@ -67,7 +67,7 @@
 }
 
 .block{
-    animation: block 1.5s infinite;
+    animation: block 2s infinite;
 }
 
 @keyframes block{
@@ -96,4 +96,18 @@
 
 .start_game_button:hover{
     cursor: pointer;
+}
+
+.note{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.description{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
 }
